@@ -20,15 +20,17 @@ input[type="submit"] {
 
 .search-icon path {
   fill: white;
+  transform:scale(0.8);
 }
 
 .search-icon {
     background-color: #23995c;
-    padding: 0;
     height: 60px;
     border-radius: 3px;
     border: solid #23995c 1px;
     margin: 15px;
+    cursor: pointer;
+    box-shadow: 0 2px 1px -1px #888888;
 }
 
 form {
