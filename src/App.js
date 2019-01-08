@@ -55,7 +55,7 @@ class App extends Component {
 
   render() {
     const favouritesMarkup = this.state.favouritesList.length ? (
-      <div>
+      <div className='favourites'>
       <h1>Favourites</h1>
       <List onFavourite={()=>this.getFavourites()} items={this.state.favouritesList}/>
       </div>
