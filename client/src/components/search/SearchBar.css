@@ -1,0 +1,41 @@
+input[type="text"] {
+    margin: 10px;
+    width: 97%;
+    height: 50px;
+    padding: 15px;
+    border-radius:3px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: #bcbcbc;
+    border-width: 1px;
+}
+
+input[type="text"]:focus {
+    outline:none;
+}
+
+input[type="submit"] {
+    display: none;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: white;
+}
+
+.svg-icon {
+    background-color: #23995c;
+    padding: 0;
+    height: 50px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
