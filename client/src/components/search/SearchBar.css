@@ -1,7 +1,7 @@
 input[type="text"] {
-    margin: 10px;
+    margin: 15px;
     width: 97%;
-    height: 50px;
+    height: 30px;
     padding: 15px;
     border-radius:3px;
     font-size: 20px;
@@ -18,18 +18,17 @@ input[type="submit"] {
     display: none;
 }
 
-.svg-icon path,
-.svg-icon polygon,
-.svg-icon rect {
+.search-icon path {
   fill: white;
 }
 
-.svg-icon {
+.search-icon {
     background-color: #23995c;
     padding: 0;
-    height: 50px;
+    height: 60px;
     border-radius: 3px;
-    margin-top: 10px;
+    border: solid #23995c 1px;
+    margin: 15px;
 }
 
 form {
@@ -37,5 +36,4 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 15px;
 }
